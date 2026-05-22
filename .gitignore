@@ -1,0 +1,15 @@
+# Ignore embedded Python runtime and large generated files
+python_embeded/
+ComfyUI/
+# Keep the portable wrapper docs and scripts, but not the full ComfyUI repo contents
+# This avoids adding a nested repository inside this project.
+ComfyUI/models/
+ComfyUI/output/
+ComfyUI/temp/
+ComfyUI/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.sqlite
